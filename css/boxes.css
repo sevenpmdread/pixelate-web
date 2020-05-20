@@ -6,8 +6,8 @@ html {
 
 @font-face {
     font-family: 'Helvetica 55 Roman';
-    src: url('HelveticaNeue-Roman.woff2') format('woff2'),
-        url('HelveticaNeue-Roman.woff') format('woff');
+    src: url('../font/HelveticaNeue-Roman.woff2') format('woff2'),
+        url('../font/HelveticaNeue-Roman.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
