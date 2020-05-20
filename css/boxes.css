@@ -193,10 +193,13 @@ ul>button:hover {
 	text-align: left;
 }
 
-.contact-bg {
-	height: 100vh;
-	background: url(../img/contact-bg.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-	/* height: 30vh; */
+.contact-image {
+	overflow: hidden;
+	width: 100%;
+	transform: translateY(-14em);
+	-webkit-transform: translateY(-14em);
+	-moz-transform: translateY(-14em);
+	-ms-transform: translateY(-14em);
+	-o-transform: translateY(-14em);
+	z-index: -999;
 }
