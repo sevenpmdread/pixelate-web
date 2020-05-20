@@ -4,8 +4,18 @@ html {
 	box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Helvetica 55 Roman';
+    src: url('HelveticaNeue-Roman.woff2') format('woff2'),
+        url('HelveticaNeue-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 body {
-	font-family: "Helvetica Neue";
+	font-family: "Helvetica 55 Roman";
 }
 
 ul {
@@ -117,7 +127,7 @@ ul>button:hover {
 .about-text {
 	grid-column: 1/2;
 	font-size: 25em;
-	font-family: "Helvetica Neue";
+	font-family: "Helvetica 55 Roman";
 	color: rgb(0, 0, 0);
 	line-height: 1.2;
 	text-align: justifyLeft;
@@ -150,7 +160,7 @@ ul>button:hover {
 .contact-number {
 	display: grid;
 	font-size: 6.4em;
-	font-family: "Helvetica Neue";
+	font-family: "Helvetica 55 Roman";
 	font-weight: 400;
 	color: rgb(0, 0, 0);
 	line-height: 1.2;
@@ -196,10 +206,4 @@ ul>button:hover {
 .contact-image {
 	overflow: hidden;
 	width: 100%;
-	transform: translateY(-14em);
-	-webkit-transform: translateY(-14em);
-	-moz-transform: translateY(-14em);
-	-ms-transform: translateY(-14em);
-	-o-transform: translateY(-14em);
-	z-index: -999;
 }
