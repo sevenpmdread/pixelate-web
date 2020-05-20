@@ -57,4 +57,50 @@ ul>button:hover {
 	font-weight: 500;
 	border-bottom: 2px solid #2b2b2b;
 	padding: 0.4em 0;
+	position: relative;
 }
+
+.heading > sup {
+	position: absolute;
+	top: 0.8em;
+}
+
+/* ----------------------------------- */
+/* ---------- About Header ----------- */
+/* ----------------------------------- */
+
+.about-header {
+	/* position: relative; */
+	background-image: url(../img/about-header.png);
+	height: 32vh;
+	background-position: center top;
+	padding: 1.6em;
+}
+
+#caption {
+	position: absolute;
+	display: inline-block;
+	font-size: 2em;
+	/* border: 1px solid #2b2b2b; */
+	text-align: justify;
+	
+}
+
+#caption {
+	font-size: 2.4em;
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: justify;
+	/* -moz-transform: matrix( 0.48170927742357,0,0,0.48170927742357,0,0);
+	-webkit-transform: matrix( 0.48170927742357,0,0,0.48170927742357,0,0);
+	-ms-transform: matrix( 0.48170927742357,0,0,0.48170927742357,0,0); */
+	/* position: absolute; */
+	/* width: 1025.911px; */
+	/* height: 208.5px; */
+	z-index: 2;
+	border-width: 0.04em;
+	border-color: rgb(0, 0, 0);
+	border-style: solid;
+  }
+  
+  

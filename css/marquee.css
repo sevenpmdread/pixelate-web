@@ -1,0 +1,17 @@
+#caption {
+    letter-spacing: 2px;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    line-height: 30px;
+    height:30px;
+    width: 100%;
+    -moz-animation:  caption 50s linear 0s infinite;
+    -webkit-animation:  caption 50s linear 0s infinite;
+}
+@-moz-keyframes caption { 
+    0% { margin-left:120%; } 100% { margin-left:-4200px; }  
+}
+@-webkit-keyframes caption { 
+    0% { margin-left:120%; } 100% { margin-left:-4200px; }  
+}
