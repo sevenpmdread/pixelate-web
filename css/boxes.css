@@ -1,10 +1,11 @@
 html {
 	font-size: 62.5%;
 	/* font-size 1em = 10px on default browser settings */
+	box-sizing: border-box;
 }
 
 body {
-	font-family: Helvetica, "Helvetica Neue";
+	font-family: "Helvetica Neue";
 }
 
 ul {
@@ -18,7 +19,7 @@ ul {
 
 ul>button {
 	padding: 1em 0em;
-	border: 2px solid #2b2b2b;
+	border: 4px solid #000000;
 	border-right: none;
 	background: transparent;
 	text-transform: uppercase;
@@ -51,16 +52,16 @@ ul>button:hover {
 
 .heading {
 	text-align: center;
-	
+
 	font-size: 8em;
 	text-transform: uppercase;
 	font-weight: 500;
-	border-bottom: 2px solid #2b2b2b;
+	border-bottom: 4px solid #000000;
 	padding: 0.4em 0;
 	position: relative;
 }
 
-.heading > sup {
+.heading>sup {
 	position: absolute;
 	top: 0.8em;
 }
@@ -83,7 +84,7 @@ ul>button:hover {
 	font-size: 2em;
 	/* border: 1px solid #2b2b2b; */
 	text-align: justify;
-	
+
 }
 
 #caption {
@@ -101,8 +102,8 @@ ul>button:hover {
 	border-width: 0.04em;
 	border-color: rgb(0, 0, 0);
 	border-style: solid;
-  }
-  
+}
+
 /* ------------------------------------ */
 /* ----------  ABOUT TEXT ------------- */
 /* ------------------------------------ */
@@ -121,23 +122,81 @@ ul>button:hover {
 	line-height: 1.2;
 	text-align: justifyLeft;
 	grid-row: 1/2;
-  }
+}
 
 .about-arrow {
 	grid-column: 2/3;
 	grid-row: 1/2;
-}  
+}
 
 /*  */
 
 .about-para {
 	grid-column: 1/3;
-		background-color: black;
-		font-size: 50px;
-		color: rgb(255, 255, 255);
-		line-height: 1.2;  
-		padding: 0.8em;
-		font-weight: regular;
-		text-align: justify;
+	background-color: black;
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+	line-height: 1.2;
+	padding: 0.8em;
+	font-weight: 200;
+	text-align: justify;
 }
-  
+
+
+/* ------------------------------------ */
+/* ---------- CONTACT TEXT ------------ */
+/* ------------------------------------ */
+
+.contact-number {
+	display: grid;
+	font-size: 6.4em;
+	font-family: "Helvetica Neue";
+	font-weight: 400;
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: center;
+	align-items: center;
+	padding: 0.4em 0;
+	border-bottom: 4px solid #000000;
+}
+
+.contact-number > .col-1 {
+	grid-column: 1/2;
+}
+.contact-number > .col-2 {
+	grid-column: 2/3;
+}
+.contact-number > .col-3 {
+	grid-column: 3/4;
+}
+
+.contact {
+	font-size: 6.4em;
+	font-weight: 400;
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: right;
+	border-bottom: 4px solid #000000;
+}
+
+.contact > span {
+	background: #000;
+	color: white;
+	height: 100%;
+}
+
+.ta-right {
+	text-align: right;
+}
+
+.ta-left {
+	text-align: left;
+}
+
+.contact-bg {
+	height: 100vh;
+	background: url(../img/contact-bg.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	/* height: 30vh; */
+}
