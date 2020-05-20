@@ -103,4 +103,40 @@ ul>button:hover {
 	border-style: solid;
   }
   
+/* ------------------------------------ */
+/* ----------  ABOUT TEXT ------------- */
+/* ------------------------------------ */
+
+.about-section {
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}
+
+.about-text {
+	grid-column: 1/2;
+	font-size: 25em;
+	font-family: "Helvetica Neue";
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: justifyLeft;
+	grid-row: 1/2;
+  }
+
+.about-arrow {
+	grid-column: 2/3;
+	grid-row: 1/2;
+}  
+
+/*  */
+
+.about-para {
+	grid-column: 1/3;
+		background-color: black;
+		font-size: 50px;
+		color: rgb(255, 255, 255);
+		line-height: 1.2;  
+		padding: 0.8em;
+		font-weight: regular;
+}
   
