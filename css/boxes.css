@@ -207,3 +207,8 @@ ul>button:hover {
 	overflow: hidden;
 	width: 100%;
 }
+
+ul > .active {
+	background: #000;
+	color: #fff;
+}
