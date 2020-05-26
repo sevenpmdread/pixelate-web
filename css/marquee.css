@@ -5,7 +5,7 @@
     font-size: 20px;
     line-height: 30px;
     height:30px;
-    width: 100%;
+    width: 100vw;
     -moz-animation:  caption 50s linear 0s infinite;
     -webkit-animation:  caption 50s linear 0s infinite;
 }
