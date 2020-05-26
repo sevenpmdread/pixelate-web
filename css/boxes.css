@@ -182,6 +182,13 @@ ul>a:hover {
 
 .contact-number>.col-3 {
 	grid-column: 3/4;
+	height: 100%;
+	padding: 0;
+}
+.contact-number>.col-3:hover {
+	background: #000;
+	color: white;
+	height: 100%;
 }
 
 .contact {
@@ -193,11 +200,11 @@ ul>a:hover {
 	border-bottom: 4px solid #000000;
 }
 
-.contact>span {
+/* .contact>span {
 	background: #000;
 	color: white;
 	height: 100%;
-}
+} */
 
 .ta-right {
 	text-align: right;
@@ -261,3 +268,7 @@ ul>.active {
 
 
 /* LINKS */
+.hover-black:hover {
+	color: white;
+	background: #000;
+}
