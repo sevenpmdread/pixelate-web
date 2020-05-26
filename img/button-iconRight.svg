@@ -1,18 +1,1 @@
-<svg id="button-iconRight" xmlns="http://www.w3.org/2000/svg" width="42.167" height="42.167" viewBox="0 0 42.167 42.167">
-  <defs>
-    <style>
-      .cls-1 {
-        font-size: 300px;
-        font-family: Helvetica;
-      }
-
-      .cls-2 {
-        fill: none;
-        stroke: #000;
-        stroke-width: 4.167px;
-      }
-    </style>
-  </defs>
-  <text id="_" data-name="+" class="cls-1" transform="translate(7.165 33.021) scale(0.157)">+</text>
-  <circle class="cls-2" cx="21.083" cy="21.083" r="19"/>
-</svg>
+<svg id="button-iconRight" xmlns="http://www.w3.org/2000/svg" width="42.167" height="42.167"><defs><style>.cls-1{font-size:300px;font-family:Helvetica}.cls-2{fill:none;stroke:#000;stroke-width:4.167px}</style></defs><text id="_" data-name="+" class="cls-1" transform="matrix(.157 0 0 .157 7.165 33.021)">+</text><circle class="cls-2" cx="21.083" cy="21.083" r="19"/></svg>
