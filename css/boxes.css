@@ -185,6 +185,7 @@ ul>a:hover {
 	height: 100%;
 	padding: 0;
 }
+
 .contact-number>.col-3:hover {
 	background: #000;
 	color: white;
@@ -242,6 +243,23 @@ ul>.active {
 	text-transform: uppercase;
 	margin: 0;
 	padding: 0;
+}
+
+.work-list li {
+	list-style: disc;
+	text-align: left;
+	margin-left: 40px;
+}
+
+.work-list {
+	margin-bottom: 24px;
+}
+
+.work-header {
+	font-size: 48px;
+	font-weight: bold;
+	line-height: 1.2;
+	text-transform: uppercase;
 }
 
 .work-para {
