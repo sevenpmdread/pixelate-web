@@ -1,4 +1,4 @@
-html {
+/* html {
 	font-size: 62.5%;
 	/* font-size 1em = 10px on default browser settings */
 	box-sizing: border-box;
@@ -13,10 +13,8 @@ html {
 }
 
 
+ */
 
-body {
-	font-family: "Helvetica 55 Roman";
-}
 
 ul {
 	list-style-type: none;
@@ -298,11 +296,11 @@ ul>.active {
 .section-series {
 	overflow: auto;
 	white-space: nowrap;
-	padding: 32px 32px;
+	padding: 0 16px;
 }
 
 .section-series > * {
-	margin-right: 32px;
+	margin-right: 16px;
 }
 
 /* LINKS */
