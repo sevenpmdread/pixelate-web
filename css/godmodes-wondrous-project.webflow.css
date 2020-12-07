@@ -868,9 +868,9 @@ a {
   }
 
   .big-nav {
-    position: -webkit-sticky;
+    /* position: -webkit-sticky;
     position: sticky;
-    top: 0px;
+    top: 0px; */
   }
 
   .author--link {
