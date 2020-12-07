@@ -66,3 +66,7 @@
     50% { left: -100%; }
     100% {left: -100%}
   }
+
+  .section-work-marquee img {
+    height: 80px;
+  }

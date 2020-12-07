@@ -1,19 +1,4 @@
-/* html {
-	font-size: 62.5%;
-	/* font-size 1em = 10px on default browser settings */
-	box-sizing: border-box;
-}
 
-@font-face {
-	font-family: 'Helvetica 55 Roman';
-	src: url('../font/HelveticaNeue-Roman.woff2') format('woff2'),
-		url('../font/HelveticaNeue-Roman.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
-
-
- */
 
 
 ul {
@@ -289,18 +274,22 @@ ul>.active {
 }
 
 .section-work-marquee {
-	padding: 6.4rem 0;
+	padding: 16px 0;
 	border-bottom: 4px solid #000;
 }
 
 .section-series {
 	overflow: auto;
 	white-space: nowrap;
-	padding: 0 16px;
+	padding: 0 16px !important;
+	margin-bottom: 16px;
 }
 
 .section-series > * {
 	margin-right: 16px;
+}
+.section-series img {
+	height: 204px;
 }
 
 /* LINKS */
