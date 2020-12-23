@@ -504,10 +504,10 @@ a {
   }
 
   .case-study--author-date {
-    display: none;
+    /* display: none; */
     font-size: 12px;
     line-height: 14.399999999999999px;
-    font-weight: 500;
+    font-weight: 400;
   }
 
   .case-study-top {
